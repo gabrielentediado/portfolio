@@ -1,11 +1,46 @@
 :root{
     --font-family: 'Open Sans', sans-serif;
     --tittle-font-family: 'Poppins', sans-serif;
+    --background-color: #27272a;
+    --light-color: #a1a1aa; 
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
+}
+body{
+    background-color: var(--background-color);
+}
+
+header .container a{
+    text-decoration: none;
+     border: none;
+    color: currentColor;
+    color: aliceblue;
+}
+
+header .container{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5mm 0;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 30%;
+}
+
+main#about .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main#about .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }

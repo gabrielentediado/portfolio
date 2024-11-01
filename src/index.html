@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Gabriel Cardoso</title>
@@ -9,34 +11,50 @@
 <body>
     <header>
        <div class="container">
-        <p>teste</p>
-        <a href="#about">
-            <h2>Portfólio</h2>
-        </a>
+        
+        <div class="sidebar" id="mySidebar">
+            <a href="#">Trabalhos</a> 
+        </div>
+             
+        <div>
+            <button class="Left-side-bar-button" onclick="openNav(event)">
+                <i class="custom-icon bi bi-justify"></i>
+            </button>
     
-       </div>
-    </header>
-
-    <nav>
-
-        <div class="top-nav">
-          
+        </div>
+        
+        <div>   
+            <a href="#about">
+                <h2>Portfólio</h2>
+            </a>
         </div>
 
-    </nav>
-
+       </div>
+    </header>
+    
     <main>
+        
         <section id="about">
             <div class="container">
                 <div class="banner">
                     <div class="intro">
                         <h1>Olá, sou</h1>
                         <span>Gabriel Cardoso</span>
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
                     </div>
+                </div>
+                <div class="photo">
+
+                </div>
+                <div>
+                    <p>Sou estudante de ciências da computação, buscando sempre aprender.</p>
                 </div>
             </div>
         </section>
 
     </main>
+    <script src="../src/portifolioJS/left-bar.js"></script>
 </body>
 </html>

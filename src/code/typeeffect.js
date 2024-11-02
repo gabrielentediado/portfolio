@@ -1,8 +1,8 @@
 const texts = [
-    "inovate",
-    "learn new things.",
-    "be a better developers",
-    "solve problems"
+    " always inovate",
+    " always learn new things.",
+    " always be a better developer.",
+    " always solve problems."
 ];
 const speed = 100; // Velocidade de digitação (milissegundos)
 const pause = 2000; // Pausa antes de apagar (milissegundos)
@@ -25,7 +25,7 @@ function type() {
             setTimeout(type, pause);
         }
     } else {
-        if (charIndex > 0) {
+        if (charIndex > 2) {
             typewriter.innerHTML = currentText.substring(0, charIndex - 1);
             charIndex--;
             setTimeout(type, speed);

@@ -19,7 +19,6 @@ document.addEventListener('click', function(event) {
 document.addEventListener('click', function(event){
     count++
     if(count % 2 || count == 0){
-        openNav()
     }else{
         closeNav()
     }

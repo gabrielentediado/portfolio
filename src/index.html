@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Gabriel Cardoso</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    
 </head>
 <body>
     <header>
@@ -32,7 +36,7 @@
     </header>
     
     <main>
-        <section id="about">
+        <section id="about" data-aos="fade-up">
             <div class="container">
                 <div class="banner">
                     <div class="intro">
@@ -51,11 +55,25 @@
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" data-aos="fade-up">
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-item item-1">ATIVU INVOICER MANAGER (front-end)</div>
+                    <div class="grid-item">EM BREVE</div>
+                    <div class="grid-item">EM BREVE</div>
+                    <div class="grid-item">EM BREVE</div>
+                    <div class="grid-item">EM BREVE</div>
+                    <div class="grid-item">EM BREVE</div>
+                </div>
+            </div>
 
         </section>
 
     </main>
     <script src="code/left-bar.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -3,6 +3,8 @@
     --tittle-font-family: 'Poppins', sans-serif;
     --background-color: #27272a;
     --light-color: #a1a1aa; 
+
+    --light-purple: ;
 }
 *{
     margin: 0;
@@ -66,7 +68,16 @@ section#about .banner h1{
     color: white;
 }
 
-/* END ABOUT*/
+section#about .intro{
+    width: 45%;
+}
+
+section#about .about-message{
+    
+}
+
+/* END SECTION */
+
 span{
     color: var(--light-color);
 }
@@ -115,7 +126,7 @@ body p{
 }
 
 .profile-picture{
-    width: 15%;
-    height: 15%;
+    width: 115px;
+    height: 115px;
     border-radius: 100%;
 }

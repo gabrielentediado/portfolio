@@ -1,8 +1,8 @@
 const texts = [
-    " always inovating",
-    " always learning new things.",
-    " always being a better developer.",
-    " always solving problems."
+    " always inovate",
+    " always learn new things.",
+    " always be a better developer.",
+    " always solve problems."
 ];
 const speed = 100; 
 const pause = 2000;

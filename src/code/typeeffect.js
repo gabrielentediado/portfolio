@@ -1,11 +1,11 @@
 const texts = [
-    " always inovate",
-    " always learn new things.",
-    " always be a better developer.",
-    " always solve problems."
+    " always inovating",
+    " always learning new things.",
+    " always being a better developer.",
+    " always solving problems."
 ];
-const speed = 100; // Velocidade de digitação (milissegundos)
-const pause = 2000; // Pausa antes de apagar (milissegundos)
+const speed = 100; 
+const pause = 2000;
 let textIndex = 0;
 let charIndex = 0;
 let isAdding = true;
